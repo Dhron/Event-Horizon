@@ -1,0 +1,83 @@
+
+*{
+margin: 0;
+}
+
+*::selection{
+  color: #ff851b;
+}
+
+html{
+height: 100%;
+width: 100%;
+}
+
+body{
+
+    background: -webkit-linear-gradient(90deg, #50C9C3 10%, #96DEDA 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #50C9C3 10%, #96DEDA 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #50C9C3 10%, #96DEDA 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #50C9C3 10%, #96DEDA 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #50C9C3 10%, #96DEDA 90%); /* W3C */
+          
+}
+
+li{
+  display: inline;
+  padding: 10px;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Megrim', cursive;
+}
+
+#mainchar{
+  color: red;
+}
+
+.navigation{
+  margin-top: 20px;
+  text-align: center;
+}
+body{
+
+}
+
+h1{
+  margin-top: 50px;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+p{
+  margin-top: 300px;
+  text-align:center;
+  font-family: 'Megrim', cursive;
+  color: #fff;
+}
+
+.footer p{
+  color: #fff;
+  padding: 30px;
+  bottom: 0px;
+  left: 0;
+}
+.footer{
+  margin: auto;
+  position: absolute;
+}
+
+
+.container{
+  max-width: 800px;
+  margin: auto;
+}
