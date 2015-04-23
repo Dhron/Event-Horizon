@@ -32,6 +32,7 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="section intro">
   <div class="container">
     <div class="row">
       <div class="full-width" style="margin-top: 25%" id="stars">
@@ -40,30 +41,26 @@
       </div>
     </div>
   </div>
-  <form>
+</div>
+  <div class="container">
+  <form id="contact">
     <div class="row">
-      <div class="two-columns">
-          <label for="name">Your Name</label>
-          <input class="one-fourth column" id="name" placeholder="name">
+      <div class="six columns">
+        <label for="email">Your email</label>
+        <input class="u-full-width" type="email" placeholder="example@mail.com" id="email">
       </div>
-      <div class="two-columns">
-        <label for="email">Your E-mail</label>
-        <input class="one-fourth column" id="email" placeholder="e-mail">
+      <div class="six columns">
+        <label for="name">Name</label>
+        <input type="text" class="u-full-width" id="name" placeholder="Your name">
+
+      </input>
       </div>
     </div>
-    <div class="two-columns">
-      <label for="email">Your E-mail</label>
-      <input class="one-fourth column" id="email" placeholder="e-mail">
-    </div>
-  </div>
-
-
-
-
-
+    <label for="exampleMessage">Message</label>
+    <textarea class="u-full-width" placeholder="Say hello!" id="exampleMessage"></textarea>
+    <input class="button-primary" type="submit" value="Submit">
   </form>
-
-
+</div>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
