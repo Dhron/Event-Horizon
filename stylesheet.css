@@ -17,6 +17,7 @@ h4 {
   font-family: 'Henny Penny', cursive;
   font-size: 80px;
   text-shadow: 3px 3px 5px #111111;
+  margin: auto;
 }
 .intro {
   background-image: url("http://i.imgur.com/ZrBUX32.jpg");
@@ -33,10 +34,6 @@ html {
   height: 100%;
   width: 100%;
 }
-li {
-  display: inline;
-  padding: 10px;
-}
 a:visited {
   text-decoration: none;
   color: #fff;
@@ -44,6 +41,7 @@ a:visited {
 a {
   text-decoration: none;
   color: #fff;
+  font-family: 'Henny Penny', cursive;
 }
 #mainchar {
   color: red;
@@ -56,9 +54,7 @@ a {
   margin-top: 50px;
 }
 .button {
-  margin: 0 auto;
-  height: 45px;
-  width: 120px;
+
   /*border: 2px solid rgba(255, 255, 255, 1);*/
 
   color: #fff;
@@ -68,15 +64,12 @@ a {
   -o-transition: background-color 300ms linear;
   -ms-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
-  display: inline-block;
 }
 .button i {
   align: center;
   margin-top: 12.5px;
 }
-.button a {
-  text-align: center;
-}
+
 .button:hover {
   background-color: #fff;
   -webkit-transition: color 300ms linear;
@@ -89,7 +82,7 @@ a {
   /*border: 2px solid rgba(255, 255, 255, 1);*/
 }
 body {
-  background-color: #001f3f;
+  background-color: #111;
 }
 h1 {
   margin-top: 50px;
