@@ -1,94 +1,107 @@
 @import url(http://fonts.googleapis.com/css?family=Henny+Penny);
-*{
-margin: 0;
+* {
+  margin: 0;
 }
-
-*::selection{
+*::selection {
   color: #ffffff;
 }
-
-.section{
-    height: 100vh;
+.section {
+  height: 100vh;
 }
-
-label{
+label {
   color: #fff;
 }
-
-h4{
+h4 {
   color: #2ecc40;
   padding-top: 20px;
   font-family: 'Henny Penny', cursive;
   font-size: 80px;
   text-shadow: 3px 3px 5px #111111;
 }
-.intro{
+.intro {
   background-image: url("http://i.imgur.com/ZrBUX32.jpg");
   background-size: cover;
-
 }
-
-#contact{
-  margin-top:80px;
+#contact {
+  margin-top: 80px;
 }
-
-h3{
+h3 {
   font-family: 'Henny Penny', cursive;
   color: #2ecc40;
 }
-
-html{
-height: 100%;
-width: 100%;
+html {
+  height: 100%;
+  width: 100%;
 }
-
-body{
- background-color: #111111;
-}
-
-li{
+li {
   display: inline;
   padding: 10px;
 }
-
-a:visited{
+a:visited {
   text-decoration: none;
   color: #fff;
 }
-
-a{
+a {
   text-decoration: none;
   color: #fff;
-
 }
-
-#mainchar{
+#mainchar {
   color: red;
 }
-
-.navigation{
+.navigation {
   margin-top: 20px;
   text-align: center;
 }
-body{
-
-}
-
-h1{
+.nav {
   margin-top: 50px;
+}
+.button {
+  margin: 0 auto;
+  height: 45px;
+  width: 120px;
+  /*border: 2px solid rgba(255, 255, 255, 1);*/
 
+  color: #fff;
+  margin-top: 15px;
+  -webkit-transition: background-color 300ms linear;
+  -moz-transition: background-color 300ms linear;
+  -o-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+  display: inline-block;
+}
+.button i {
+  align: center;
+  margin-top: 12.5px;
+}
+.button a {
+  text-align: center;
+}
+.button:hover {
+  background-color: #fff;
+  -webkit-transition: color 300ms linear;
+  -moz-transition: color 300ms linear;
+  -o-transition: color 300ms linear;
+  -ms-transition: color 300ms linear;
+  transition: color 300ms linear;
+  opacity: 1;
+  color: black;
+  /*border: 2px solid rgba(255, 255, 255, 1);*/
+}
+body {
+  background-color: #001f3f;
+}
+h1 {
+  margin-top: 50px;
   font-size: 50px;
   color: #fff;
   text-align: center;
 }
-
-p{
-  margin-top: 45%;
-  text-align:center;
+p {
+  text-align: center;
   font-family: 'Henny Penny', cursive;
-  color: #01ff70;
+  color: #fff;
 }
-
 /*.footer p{
   color: #fff;
   padding: 30px;
