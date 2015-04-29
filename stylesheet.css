@@ -28,6 +28,7 @@ h4 {
 }
 #contact{
   height: 100%;
+  margin-top: 30px;
 }
 h3 {
   font-family: 'Henny Penny', cursive;
@@ -85,13 +86,7 @@ a {
   /*border: 2px solid rgba(255, 255, 255, 1);*/
 }
 body {
-
-  background: -webkit-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #6441A5 10%, #2a0845 90%); /* W3C */
-
+    background-color: #111;
 }
 input[type="text"]{
     opacity: .9;
@@ -119,13 +114,11 @@ p {
 }
 
 .form{
-  background-image: url("https://download.unsplash.com/photo-1420708392410-3c593b80d416");
-  background-size: cover;
+
 }
 
 .comments{
-  background-image: url("yooooo.png");
-  background-size: cover;
+
 }
 /*.footer p{
   color: #fff;
